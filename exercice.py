@@ -9,7 +9,7 @@ def is_even_len(string):
 
 def get_num_char(string, char):
 	
-    return string.count
+    return string.count(char)
 
 
 def get_first_part_of_name(name):
