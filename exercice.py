@@ -23,7 +23,8 @@ def get_first_part_of_name(name):
 
 def get_random_sentence(animals, adjectives, fruits):
 	animals = animals[random]
-    adjectives=adjectives[]
+    adjectives=adjectives[random]
+    
     return "Aujourd’hui, j’ai vu un ",animals," s’emparer d’un panier ",adjectives," plein de ",fruits,"."
 
 
