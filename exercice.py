@@ -17,7 +17,7 @@ def get_num_char(string, char):
 
 def get_first_part_of_name(name):
 	first_part=name.split("-")[0]
-    capitalized= first_part[0].upper()+first_part[1=]
+    capitalized= first_part[0].upper()+first_part[1:]
     
 
 
