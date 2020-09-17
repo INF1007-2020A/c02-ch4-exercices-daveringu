@@ -6,7 +6,8 @@ import random
 def is_even_len(string):
     lenght = len(string)
     if lenght % 2 ==0:
-	    return 0xDEADF
+	    return True
+    else 
 
 
 def get_num_char(string, char):
