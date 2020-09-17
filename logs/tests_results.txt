@@ -36,13 +36,13 @@ FAIL: test_get_num_char (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 43, in test_get_num_char
     "Mauvais calcul du nombre d'occurences du caractère."
-AssertionError: Lists differ: [3735927486, 3735927486, 3735927486] != [3, 1, 5]
+AssertionError: Lists differ: [None, None, None] != [3, 1, 5]
 
 First differing element 0:
-3735927486
+None
 3
 
-- [3735927486, 3735927486, 3735927486]
+- [None, None, None]
 + [3, 1, 5] : Mauvais calcul du nombre d'occurences du caractère.
 
 ======================================================================
@@ -54,6 +54,6 @@ Traceback (most recent call last):
 AssertionError: False is not true : Phrases pas aléatoires.
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.002s
+Ran 4 tests in 0.001s
 
 FAILED (failures=3, errors=1)
