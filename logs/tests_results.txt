@@ -1,7 +1,19 @@
 test_get_first_part_of_name (__main__.TestExercice) ... FAIL
 test_get_num_char (__main__.TestExercice) ... FAIL
 test_get_random_sentence (__main__.TestExercice) ... FAIL
-test_is_even_len (__main__.TestExercice) ... ok
+test_is_even_len (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_is_even_len (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 23, in test_is_even_len
+    output = [exercice.is_even_len(v) for v in values]
+  File "test_exercice.py", line 23, in <listcomp>
+    output = [exercice.is_even_len(v) for v in values]
+  File "/home/runner/work/c02-ch4-exercices-daveringu/c02-ch4-exercices-daveringu/exercice.py", line 7, in is_even_len
+    return lenght % 2 ==0
+NameError: name 'lenght' is not defined
 
 ======================================================================
 FAIL: test_get_first_part_of_name (__main__.TestExercice)
@@ -42,6 +54,6 @@ Traceback (most recent call last):
 AssertionError: False is not true : Phrases pas aléatoires.
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 4 tests in 0.002s
 
-FAILED (failures=3)
+FAILED (failures=3, errors=1)
