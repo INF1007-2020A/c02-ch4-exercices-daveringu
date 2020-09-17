@@ -5,10 +5,7 @@ import random
 
 def is_even_len(string):
     lenght = len(string)
-    if lenght % 2 ==0:
-	    return True
-    else:
-        return False
+    return lenght
 
 
 def get_num_char(string, char):
