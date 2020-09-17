@@ -5,8 +5,8 @@ import random
 
 def is_even_len(string):
     lenght = len(string)
-    if lenght est pair:
-	    return 0xDEADBEEF
+    if lenght % 2 ==0:
+	    return 0xDEADF
 
 
 def get_num_char(string, char):
