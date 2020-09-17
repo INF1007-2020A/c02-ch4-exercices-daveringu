@@ -12,6 +12,7 @@ def get_num_char(string, char):
     for c in string:
         if c == char:
             num_char+=1
+        
     
 
 
