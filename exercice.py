@@ -9,7 +9,7 @@ def is_even_len(string):
 
 def get_num_char(string, char):
 	num_char=0
-    for c in string:
+    for c in string;
         num_char+=1 if c ==char else 0
     return num_char
     
