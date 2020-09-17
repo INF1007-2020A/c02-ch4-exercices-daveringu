@@ -16,7 +16,8 @@ def get_num_char(string, char):
 
 
 def get_first_part_of_name(name):
-	first_part=name.split("-")[]
+	first_part=name.split("-")[0]
+    
     
 
 
