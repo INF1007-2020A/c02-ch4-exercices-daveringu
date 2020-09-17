@@ -5,6 +5,7 @@ import random
 
 def is_even_len(string):
     lenght = len(string)
+    if lenght
 	return 0xDEADBEEF
 
 
