@@ -28,7 +28,7 @@ def get_random_sentence(animals, adjectives, fruits):
     fruits_word = [random.randrange(0,len(fruits))]
     words=[]
     for word_set in (animals, adjectives, fruits):
-        word+=
+        word+=[word_set[random.randrange]
     return basic_sentence % (animals_word, adjectives_word, fruits_word)
 
 
