@@ -22,7 +22,8 @@ def get_first_part_of_name(name):
 
 
 def get_random_sentence(animals, adjectives, fruits):
-	return ""
+	
+    return ""
 
 
 if __name__ == "__main__":
