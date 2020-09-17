@@ -22,6 +22,7 @@ def get_first_part_of_name(name):
 
 
 def get_random_sentence(animals, adjectives, fruits):
+    basic
 	animal_word = [random.randrange(0,len(animals))]
     adjectif_word = [random.randrange(0,len(adjectives))]
     fruit_word = [random.randrange(0,len(fruits))]
