@@ -4,7 +4,6 @@
 import random
 
 def is_even_len(string):
-    lenght = len(string)
     return lenght % 2 ==0
 
 
