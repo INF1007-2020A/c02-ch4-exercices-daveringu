@@ -26,8 +26,6 @@ def get_random_sentence(animals, adjectives, fruits):
     adjectif_word = random.randrange(0,len(adjectives))
     fruit_word = random.randrange(0,len(fruits))
 
-    adjectives=adjectives[random]
-    fruits=fruits[random]
     return "Aujourd’hui, j’ai vu un ",animals," s’emparer d’un panier ",adjectives," plein de ",fruits,"."
 
 
