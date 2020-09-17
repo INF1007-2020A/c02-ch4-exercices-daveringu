@@ -16,8 +16,8 @@ def get_num_char(string, char):
 
 
 def get_first_part_of_name(name):
-	nom=list
-    return "Bonjour",name,"!"
+	
+    
 
 
 def get_random_sentence(animals, adjectives, fruits):
