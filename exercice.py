@@ -23,7 +23,7 @@ def get_first_part_of_name(name):
 
 def get_random_sentence(animals, adjectives, fruits):
 	
-    return ""
+    return "Aujourd’hui, j’ai vu un <animal> s’emparer d’un panier <adjectif> plein de <fruit."
 
 
 if __name__ == "__main__":
