@@ -8,10 +8,10 @@ def is_even_len(string):
 
 
 def get_num_char(string, char):
-	num char
+	num_char=0
     for c in string:
         if c == char:
-            num char+=1
+            num_char+=1
     
 
 
